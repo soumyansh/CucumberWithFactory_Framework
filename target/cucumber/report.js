@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 16893938577,
+  "duration": 22002050130,
   "status": "passed"
 });
 formatter.scenario({
@@ -99,21 +99,21 @@ formatter.match({
   "location": "CarSearchSteps.i_am_on_the_home_page_of_carsguide_website()"
 });
 formatter.result({
-  "duration": 204711065,
+  "duration": 278083323,
   "status": "passed"
 });
 formatter.match({
   "location": "CarSearchSteps.i_move_to_the_menu(String\u003e)"
 });
 formatter.result({
-  "duration": 427635912,
+  "duration": 473424013,
   "status": "passed"
 });
 formatter.match({
   "location": "CarSearchSteps.i_click_on_search_cars()"
 });
 formatter.result({
-  "duration": 7707476796,
+  "duration": 7299766885,
   "status": "passed"
 });
 formatter.match({
@@ -126,7 +126,7 @@ formatter.match({
   "location": "CarSearchSteps.i_select_Make_as(String)"
 });
 formatter.result({
-  "duration": 1591065058,
+  "duration": 1519923436,
   "status": "passed"
 });
 formatter.match({
@@ -139,7 +139,7 @@ formatter.match({
   "location": "CarSearchSteps.i_select_model_as(String)"
 });
 formatter.result({
-  "duration": 419438385,
+  "duration": 476001540,
   "status": "passed"
 });
 formatter.match({
@@ -152,21 +152,21 @@ formatter.match({
   "location": "CarSearchSteps.i_select_location_as(String)"
 });
 formatter.result({
-  "duration": 404463407,
+  "duration": 457738569,
   "status": "passed"
 });
 formatter.match({
   "location": "CarSearchSteps.i_click_on_Find_my_next_car_button()"
 });
 formatter.result({
-  "duration": 10456619188,
+  "duration": 9885879208,
   "status": "passed"
 });
 formatter.match({
   "location": "CarSearchSteps.i_should_see_list_of_searched_cars()"
 });
 formatter.result({
-  "duration": 31224,
+  "duration": 37641,
   "status": "passed"
 });
 formatter.match({
@@ -179,11 +179,11 @@ formatter.match({
   "location": "CarSearchSteps.the_page_title_should_match_as(String)"
 });
 formatter.result({
-  "duration": 157396809,
+  "duration": 58086317,
   "status": "passed"
 });
 formatter.after({
-  "duration": 905584499,
+  "duration": 680441850,
   "status": "passed"
 });
 formatter.uri("UsedCarSearch.feature");
@@ -201,7 +201,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 14668344668,
+  "duration": 21815655503,
   "status": "passed"
 });
 formatter.scenario({
@@ -293,21 +293,21 @@ formatter.match({
   "location": "CarSearchSteps.i_am_on_the_home_page_of_carsguide_website()"
 });
 formatter.result({
-  "duration": 2610034,
+  "duration": 1818727,
   "status": "passed"
 });
 formatter.match({
   "location": "CarSearchSteps.i_move_to_the_menu(String\u003e)"
 });
 formatter.result({
-  "duration": 600838360,
+  "duration": 734930065,
   "status": "passed"
 });
 formatter.match({
   "location": "UsedCarSearchSteps.i_click_on_Used_Cars_Search_link()"
 });
 formatter.result({
-  "duration": 7199461910,
+  "duration": 8753502288,
   "status": "passed"
 });
 formatter.match({
@@ -320,7 +320,7 @@ formatter.match({
   "location": "CarSearchSteps.i_select_Make_as(String)"
 });
 formatter.result({
-  "duration": 1030963258,
+  "duration": 1185076778,
   "status": "passed"
 });
 formatter.match({
@@ -333,7 +333,7 @@ formatter.match({
   "location": "CarSearchSteps.i_select_model_as(String)"
 });
 formatter.result({
-  "duration": 467451559,
+  "duration": 894318833,
   "status": "passed"
 });
 formatter.match({
@@ -346,21 +346,21 @@ formatter.match({
   "location": "CarSearchSteps.i_select_location_as(String)"
 });
 formatter.result({
-  "duration": 565660207,
+  "duration": 447979383,
   "status": "passed"
 });
 formatter.match({
   "location": "CarSearchSteps.i_click_on_Find_my_next_car_button()"
 });
 formatter.result({
-  "duration": 9430615082,
+  "duration": 9445748322,
   "status": "passed"
 });
 formatter.match({
   "location": "UsedCarSearchSteps.i_should_see_list_of_used_searched_cars()"
 });
 formatter.result({
-  "duration": 118054,
+  "duration": 126182,
   "status": "passed"
 });
 formatter.match({
@@ -373,11 +373,11 @@ formatter.match({
   "location": "CarSearchSteps.the_page_title_should_match_as(String)"
 });
 formatter.result({
-  "duration": 75671757,
+  "duration": 61239146,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1582428675,
+  "duration": 502140383,
   "status": "passed"
 });
 });

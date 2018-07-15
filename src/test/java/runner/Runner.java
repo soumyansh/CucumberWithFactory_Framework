@@ -15,7 +15,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 //@RunWith(Cucumber.class)
 @CucumberOptions(features = { "src/test/java/feature" }, glue = { "steps" }, monochrome = true,
 		//tags = {"@Sanity,@Build" },
-		plugin = { "pretty", "html:target/cucumber", "com.cucumber.listener.ExtentCucumberFormatter" }
+		plugin = {"json:target/RunCuke/cucumber.json","pretty", "html:target/cucumber", "com.cucumber.listener.ExtentCucumberFormatter" }
 )
 public class Runner extends AbstractTestNGCucumberTests {
 
