@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="43.56" tests="2" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="72.014" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\Soumyansh\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3905882085524690289.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Soumyansh\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf308524112364495059.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_162\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre/bin/client;C:/Program Files/Java/jre/bin;C:/Program Files/Java/jre/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Java\jdk1.8.0_162\bin;C:\Program Files\Git\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Soumyansh\AppData\Local\Android\Sdk\tools\bin;C:\Users\Soumyansh\AppData\Local\Android\Sdk\tools;C:\Users\Soumyansh\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\apache-maven-3.5.2\bin;C:\Users\Soumyansh\AppData\Roaming\npm;C:\Windows\system32;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,6 +60,90 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="feature" classname="runner.Runner" time="43.56"/>
-  <testcase name="feature" classname="runner.Runner" time="43.93"/>
+  <testcase name="feature" classname="runner.Runner" time="72.014"/>
+  <testcase name="feature" classname="runner.Runner" time="70.374">
+    <failure message="java.lang.AssertionError: expected [true] but found [false]" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [true] but found [false]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at steps.UsedCarSearchSteps.i_should_see_list_of_used_searched_cars(UsedCarSearchSteps.java:23)
+	at ✽.Then i should see list of used searched cars(UsedCarSearch.feature:19)
+</failure>
+    <system-out><![CDATA[@UsedCarSearch
+Feature: Validation of Used car search page
+  In order to validate car search as a buyer
+  I navigate to http://www.carguide.com.au
+Menu clicked is Cars For Sale
+List of used cars displayed
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at steps.UsedCarSearchSteps.i_should_see_list_of_used_searched_cars(UsedCarSearchSteps.java:23)
+	at ?.Then i should see list of used searched cars(UsedCarSearch.feature:19)
+
+
+  @UsedSearchCarPositive
+  Scenario: Validate Used search cars page                                      # UsedCarSearch.feature:7
+    Given i am on the home page of carsguide website                            # CarSearchSteps.i_am_on_the_home_page_of_carsguide_website()
+    When i move to the menu                                                     # CarSearchSteps.i_move_to_the_menu(String>)
+    Then i click on Used Cars Search link                                       # UsedCarSearchSteps.i_click_on_Used_Cars_Search_link()
+    And i select Make as "BMW"                                                  # CarSearchSteps.i_select_Make_as(String)
+    And i select model as "1 SERIES"                                            # CarSearchSteps.i_select_model_as(String)
+    And i select location as "Australia"                                        # CarSearchSteps.i_select_location_as(String)
+    And i click on Find my next car button                                      # CarSearchSteps.i_click_on_Find_my_next_car_button()
+    Then i should see list of used searched cars                                # UsedCarSearchSteps.i_should_see_list_of_used_searched_cars()
+      java.lang.AssertionError: expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:96)
+      	at org.testng.Assert.failNotEquals(Assert.java:776)
+      	at org.testng.Assert.assertTrue(Assert.java:44)
+      	at org.testng.Assert.assertTrue(Assert.java:54)
+      	at steps.UsedCarSearchSteps.i_should_see_list_of_used_searched_cars(UsedCarSearchSteps.java:23)
+      	at ?.Then i should see list of used searched cars(UsedCarSearch.feature:19)
+
+    And the page title should match as "Used Bmw 1 Series for Sale | carsguide" # CarSearchSteps.the_page_title_should_match_as(String)
+]]></system-out>
+    <system-err><![CDATA[1531657395498	geckodriver	INFO	Listening on 127.0.0.1:20513
+1531657395994	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1531657404978	Marionette	INFO	Listening on port 54562
+1531657405693	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 15, 2018 5:53:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: https://s0.2mdn.net/ads/studio/cached_libs/createjs_2015.11.26_54e1c3722102182bb133912ad4442e19_min.js, line 15: NS_ERROR_NOT_INITIALIZED: 
+1531657462266	Marionette	INFO	New connections will no longer be accepted
+]]></system-err>
+  </testcase>
 </testsuite>

@@ -1,4 +1,3 @@
-runner\Runner.class
 pages\locators\UsedCarSearchPageLocators.class
 pages\locators\CarSearchPageLocators.class
 pages\actions\UsedCarSearchPageActions.class
