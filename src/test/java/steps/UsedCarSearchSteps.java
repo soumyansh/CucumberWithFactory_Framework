@@ -17,7 +17,7 @@ public void i_click_on_Used_Cars_Search_link() throws Throwable {
 @Then("^i should see list of used searched cars$")
 public void i_should_see_list_of_used_searched_cars() throws Throwable {
    System.out.println("List of used cars displayed");
- //  Assert.assertTrue(false);
+  Assert.assertTrue(false);
    
 }
 
