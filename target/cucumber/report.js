@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 32453935583,
+  "duration": 20430941015,
   "status": "passed"
 });
 formatter.scenario({
@@ -99,21 +99,21 @@ formatter.match({
   "location": "CarSearchSteps.i_am_on_the_home_page_of_carsguide_website()"
 });
 formatter.result({
-  "duration": 461050516,
+  "duration": 251129646,
   "status": "passed"
 });
 formatter.match({
   "location": "CarSearchSteps.i_move_to_the_menu(String\u003e)"
 });
 formatter.result({
-  "duration": 1309336156,
+  "duration": 1076401043,
   "status": "passed"
 });
 formatter.match({
   "location": "CarSearchSteps.i_click_on_search_cars()"
 });
 formatter.result({
-  "duration": 12916572565,
+  "duration": 7308662047,
   "status": "passed"
 });
 formatter.match({
@@ -126,7 +126,7 @@ formatter.match({
   "location": "CarSearchSteps.i_select_Make_as(String)"
 });
 formatter.result({
-  "duration": 2330449977,
+  "duration": 2160052184,
   "status": "passed"
 });
 formatter.match({
@@ -139,7 +139,7 @@ formatter.match({
   "location": "CarSearchSteps.i_select_model_as(String)"
 });
 formatter.result({
-  "duration": 1459162068,
+  "duration": 592014628,
   "status": "passed"
 });
 formatter.match({
@@ -152,21 +152,21 @@ formatter.match({
   "location": "CarSearchSteps.i_select_location_as(String)"
 });
 formatter.result({
-  "duration": 1157787331,
+  "duration": 852518071,
   "status": "passed"
 });
 formatter.match({
   "location": "CarSearchSteps.i_click_on_Find_my_next_car_button()"
 });
 formatter.result({
-  "duration": 17559851576,
+  "duration": 15627391676,
   "status": "passed"
 });
 formatter.match({
   "location": "CarSearchSteps.i_should_see_list_of_searched_cars()"
 });
 formatter.result({
-  "duration": 44484,
+  "duration": 31653,
   "status": "passed"
 });
 formatter.match({
@@ -179,11 +179,11 @@ formatter.match({
   "location": "CarSearchSteps.the_page_title_should_match_as(String)"
 });
 formatter.result({
-  "duration": 213632320,
+  "duration": 245620429,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1282811925,
+  "duration": 951723341,
   "status": "passed"
 });
 formatter.uri("UsedCarSearch.feature");
@@ -201,7 +201,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 23638654348,
+  "duration": 18267186364,
   "status": "passed"
 });
 formatter.scenario({
@@ -293,21 +293,21 @@ formatter.match({
   "location": "CarSearchSteps.i_am_on_the_home_page_of_carsguide_website()"
 });
 formatter.result({
-  "duration": 3269601,
+  "duration": 2165618,
   "status": "passed"
 });
 formatter.match({
   "location": "CarSearchSteps.i_move_to_the_menu(String\u003e)"
 });
 formatter.result({
-  "duration": 3086400616,
+  "duration": 561254972,
   "status": "passed"
 });
 formatter.match({
   "location": "UsedCarSearchSteps.i_click_on_Used_Cars_Search_link()"
 });
 formatter.result({
-  "duration": 12645519483,
+  "duration": 7648243296,
   "status": "passed"
 });
 formatter.match({
@@ -320,7 +320,7 @@ formatter.match({
   "location": "CarSearchSteps.i_select_Make_as(String)"
 });
 formatter.result({
-  "duration": 2633237949,
+  "duration": 1285613585,
   "status": "passed"
 });
 formatter.match({
@@ -333,7 +333,7 @@ formatter.match({
   "location": "CarSearchSteps.i_select_model_as(String)"
 });
 formatter.result({
-  "duration": 690893965,
+  "duration": 645135805,
   "status": "passed"
 });
 formatter.match({
@@ -346,21 +346,21 @@ formatter.match({
   "location": "CarSearchSteps.i_select_location_as(String)"
 });
 formatter.result({
-  "duration": 844510030,
+  "duration": 814077591,
   "status": "passed"
 });
 formatter.match({
   "location": "CarSearchSteps.i_click_on_Find_my_next_car_button()"
 });
 formatter.result({
-  "duration": 21687921639,
+  "duration": 9652348689,
   "status": "passed"
 });
 formatter.match({
   "location": "UsedCarSearchSteps.i_should_see_list_of_used_searched_cars()"
 });
 formatter.result({
-  "duration": 3083537,
+  "duration": 2012490,
   "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.UsedCarSearchSteps.i_should_see_list_of_used_searched_cars(UsedCarSearchSteps.java:23)\r\n\tat ✽.Then i should see list of used searched cars(UsedCarSearch.feature:19)\r\n",
   "status": "failed"
 });
@@ -378,7 +378,7 @@ formatter.result({
 });
 formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 4910625775,
+  "duration": 1150041062,
   "status": "passed"
 });
 });
